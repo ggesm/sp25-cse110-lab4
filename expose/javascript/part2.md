@@ -28,5 +28,34 @@
     D. `student["Favorite Teacher"].name`<br>
     E. `student.courseLoad[0]`<br>
 
-13. 
-14. 
+13. A. Output: `32`<br>
+    Explanation: The `+` operator with a string causes string concatenation.<br><br>
+    B. Output: `1`<br>
+    Explanation: The `-` operator only works with numbers so `3` is converted to an integer and `3 - 2 = 1`<br><br>
+    C. Output: `3`<br>
+    Explanation: `null` is equal to `0` when adding it to `3` so `3 + 0 = 3`<br><br>
+    D. Output: `3null`<br>
+    Explanation: The `+` operator with a string causes string concatenation.<br><br>
+    E. Output: `4`<br>
+    Explanation: `true` is equal to `1` when adding it to `3` so `1 + 3 = 4`<br><br>
+    F. Output: `0`<br>
+    Explanation: Both `false` and `null` are equal to `0` and when adding them together you get `0`<br><br>
+    G. Output: `3undefined`<br>
+    Explanation: The `+` operator with a string causes string concatenation.<br><br>
+    H. Output: `NaN` <br>
+    Explanation: The `-` operator only works with numbers so `3` is converted to an integer and `undefined` is represented as `NaN`, so `3 - NaN = NaN`<br><br>
+
+14. A. Output: `true`<br>
+    Explanation: `2` is turned into a number because `1` is a number then `2 > 1` is `true`<br><br>
+    B. Output: `false`<br>
+    Explanation: Both values are strings so a lexicographical comparison is done amd it does it in order of the characters so `'2'` comes after `'1'` in character order so `'2' < '12'` is `false`<br><br>
+    C. Output: `true`<br>
+    Explanation: `==` changes types because there is number, then `'2'` becomes `2` so `2 == 2` is `true`<br><br>
+    D. Output: `false`<br>
+    Explanation: `===` checks both balue and type and it sees that `2` is number and `'2'` is a string so it is `false` <br><br>
+    E. Output: `false`<br>
+    Explanation: `true` is equal to `1` when comparing it to a number so `1 == 2` is `false`<br><br>
+    F. Output: `true`<br>
+    Explanation: `Boolean(2)` equals to `true` because it is not `0` and both sides are the same type and value so it is `true`<br><br>
+
+15. The difference between `==` and `===` is that `==` checks if the values are the same after changing types if needed, while `===` checks if both value and type are exactly the same.

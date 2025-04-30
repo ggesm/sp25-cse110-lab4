@@ -59,3 +59,21 @@
     Explanation: `Boolean(2)` equals to `true` because it is not `0` and both sides are the same type and value so it is `true`<br><br>
 
 15. The difference between `==` and `===` is that `==` checks if the values are the same after changing types if needed, while `===` checks if both value and type are exactly the same.
+
+16. Output: 
+```js
+21
+45
+5
+2
+```
+
+17. The result of calling `modifyArray([1, 2, 3], doSomething);` is `[2, 4, 6]`. The function goes through each number in the array and uses the `doSomething` function to doule it. These douled numers are then added to a new array which is returned.
+
+18. Output:
+    ```js
+
+    ```
+
+19. 
+

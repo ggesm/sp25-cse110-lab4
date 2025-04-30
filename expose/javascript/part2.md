@@ -70,10 +70,7 @@
 
 17. The result of calling `modifyArray([1, 2, 3], doSomething);` is `[2, 4, 6]`. The function goes through each number in the array and uses the `doSomething` function to doule it. These douled numers are then added to a new array which is returned.
 
-18. Output:
-    ```js
-
-    ```
+18. 
 
 19. 
 
